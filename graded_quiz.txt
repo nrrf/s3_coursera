@@ -1,0 +1,92 @@
+GRADED QUIZ: TEST YOUR PROYECT UNDERSTANDING 
+
+Pregunta 1
+A static website is created using static files and not dynamic content like backends or APis. Is that statement correct ? 
+
+R\True 
+
+Correct! In general static websites are created using markup languages like HTML, CSS and script languages like Javascript and all code is stored in a static file.
+
+2.
+Pregunta 2
+AWS S3 could be used to host a website with dynamic content ?
+
+R\True
+Correct! AWS S3 is an object storage service which offers a Static Web Hosting feature for that.
+
+3.
+Pregunta 3
+What are the common technologies used to create a static website ?
+
+R\ HTML/CSS/Javascript 
+Correct! Most static websites are created using HTML, CSS and Javascript technologies.
+
+4.
+Pregunta 4
+How AWS objects can be organized in S3 ?
+
+R\Buckets and folders  
+Correct! AWS S3 could be organized in Buckets and Folders.
+
+5.
+Pregunta 5
+AWS S3 could be used just in the United States? 
+
+R\False 
+Correct! AWS is a global cloud platform and has geographical locations around the world. 
+
+6.
+Pregunta 6
+Bucket names are unique across AWS. Is this statement correct?
+
+R\True 
+Correct! AWS S3 Bucket names are unique across all AWS and are DNS compliant. 
+
+7.
+Pregunta 7
+Why is it important to define a relevant bucket name for website hosts? 
+
+R\ Bucket name will be part of website URL 
+Correct! Bucket names are part of website URL and a relevant name is fundamental to identify your website.
+
+8.
+Pregunta 8
+In which tab we configure our bucket to host a website? 
+
+R\ Properties 
+Correct! The Properties tab is the place we can configure our bucket to host a static website. 
+
+9.
+Pregunta 9
+Index document configuration defines which page in your static website? 
+
+R\Default 
+Correct! Index.html is the most common default page used in static websites. 
+
+
+10.
+Pregunta 10
+All S3 buckets and objects are blocked for public access by default? 
+
+R\True 
+Correct! By default, for security reasons,  AWS block all S3 objects and buckets for public access
+11.
+Pregunta 11
+AWS S3 enables objects version by default when a bucket is created? 
+
+R\ False 
+Correct! AWS S3 has a versioning feature but it is not enabled by default.
+
+12.
+Pregunta 12
+How AWS S3 flags the current version of an object ?
+
+R\Latest version 
+Correct. When user upload a new version of the same object AWS S3 flag it like "Latest Version"
+
+13.
+Pregunta 13
+AWS S3 new object version uploaded is made public when the upload ends ?
+
+R\False 
+Correct! New object versions don't inherit security permission from the previous version.
